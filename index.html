@@ -37,6 +37,40 @@
   .logo-vibra{ height:52px; width:auto; }
   .logo-c2s{ height:22px; width:auto; opacity:.85; }
   .logo-x{ font-size:16px; color:var(--muted); font-weight:400; }
+  .goal-banner{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    background:linear-gradient(135deg,#fff1e0,#ffe4c2);
+    border:1px solid var(--orange-4);
+    border-radius:16px;
+    padding:18px 24px;
+    margin-bottom:26px;
+  }
+  .goal-icon{ font-size:30px; line-height:1; }
+  .goal-label{
+    font-size:12.5px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:#a05a10;
+    margin-bottom:4px;
+  }
+  .goal-numbers{
+    font-size:22px;
+    font-weight:400;
+    color:var(--ink);
+  }
+  .goal-numbers span{
+    font-weight:800;
+    color:var(--orange-1);
+  }
+  .goal-sep{
+    font-weight:400 !important;
+    color:var(--muted) !important;
+    font-size:15px;
+    margin:0 4px;
+  }
   h1{
     font-size:28px;
     margin:0 0 6px;
@@ -211,6 +245,14 @@
       <span class="bench-pill">1 a cada 7 visitas vira venda</span>
     </div>
   </header>
+
+  <div class="goal-banner">
+    <div class="goal-icon">🎯</div>
+    <div class="goal-text">
+      <div class="goal-label">Nossa meta neste trimestre</div>
+      <div class="goal-numbers"><span>10.500</span> leads <span class="goal-sep">para</span> <span>75</span> vendas</div>
+    </div>
+  </div>
 
   <div class="funnel-card">
   <div class="funnel">
